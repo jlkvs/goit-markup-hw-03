@@ -26,15 +26,15 @@ img {
 }
 
 .container {
-    max-width: 1440px;
+    width: 100%;
+    max-width: 1158px;
     padding-left: 15px; 
     padding-right: 15px;
-    margin-left: 141px;
-    margin-right: 141px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -49,8 +49,6 @@ img {
 .header-nav {
     display: flex;
     align-items: center;
-    gap: 77px;
-    /* Расстояние между элементами навигации */
 }
 
 .header-nav-list {
@@ -97,6 +95,7 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 
 .header-nav-link:hover,
@@ -205,7 +204,6 @@ body {
 }
 
 .features-text {
-    padding-top: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -230,7 +228,6 @@ body {
 .team-list {
     display: flex;
     gap: 24px;
-    padding-top: 72px;
 }
 
 .team-item {
@@ -254,9 +251,6 @@ body {
 }
 
 .team-text {
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-bottom: 32px;
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
@@ -290,7 +284,6 @@ body {
     column-gap: 24px;
     row-gap: 48px;
     justify-content: space-between;
-    padding-top: 72px;
 }
 
 .portfolio-item {
@@ -301,7 +294,6 @@ body {
 
 .portfolio-caption {
     margin-bottom: 8px;
-    padding-top: 32px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -310,7 +302,6 @@ body {
 }
 
 .portfolio-type {
-    padding-top: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -332,7 +323,6 @@ body {
 
 .footer-text {
     max-width: 264px;
-    padding-top: 16px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
